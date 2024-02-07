@@ -6,6 +6,24 @@ export const name = {
   ],
 };
 
+export const omen = {
+  type: "picker",
+  list: [
+    "Cień smoka przesłaniający gwiazdy",
+    "Czarny śnieg",
+    "Deszcz spadających gwiazd",
+    "Kometa o dwóch ogonach",
+    "Krwawy deszcz",
+    "Krwawy księżyc",
+    "Ogromne stada kruków",
+    "Plaga szarańczy",
+    "Sine chmury burzowe",
+    "Wielkie oko na niebie",
+    "Zaćmienie słońca",
+    "Zorza polarna"
+  ],
+};
+
 
 
 

@@ -1,7 +1,7 @@
 
 import {
   name,
-
+  omen
 
 } from "./siewcy.js";
 
@@ -62,7 +62,7 @@ function createCharacter() {
   Unicestwienie: ${returnAndDeleteArrayElement(dice)}\n
   Broń: ${randomizeFromArray(bronTyp)}
   Zbroja: ${randomizeFromArray(zbroja)}
-  Wiezchowiec: ${randomizeFromArray(wierzchowiec)}
+  Wierzchowiec: ${randomizeFromArray(wierzchowiec)}
   \n
   Cechy:
   Skóra: ${randomizeFromArray(skora)}
@@ -71,29 +71,8 @@ function createCharacter() {
   Znaki: ${randomizeFromArray(znaki)}
   Docenia: ${randomizeFromArray(docenia)}
   Gardzi: ${randomizeFromArray(gardzi)}
-
   `
 
-  // HP: ${HP}/${HP} Omeny ${currentOmens} (k${maxOmens}).
-  // ${characterClass.description
-  //   ? `${characterClass.description}. ${characterClass.originLabel
-  //   }${randomizeFromArray(characterClass.origin)}\n`
-  //   : ""
-  // }${characterClass.secondaryOriginLabel
-  //   ? `${characterClass.secondaryOriginLabel}${randomizeFromArray(
-  //     characterClass.secondaryOrigin
-  //   )}.\n`
-  //   : ""
-  // }\n${terribleTraitOne}. ${terribleTraitTwo}. ${pickFromList(
-  //   MBBrokenBodies
-  // )}. ${pickFromList(MBBadHabits)}.
-  // Atrybuty: siła ${STR}, zwinność: ${AGI}, skupienie ${PRE}, wytrzymałość ${TOU}.\n ${characterClass.specialAbility ? `\n${characterClass.specialAbility}.` : ""
-  // }${additionalSpecialItem ? `\n\n${additionalSpecialItem}.\n` : ""}${rolledAbilities ? `\n ${rolledAbilities}. \n` : ""
-  // }
-  // Ekwipunek: manierka, racje żywnościowe (${k(4)}), ${pickedWeapon}, ` +
-  // `${pickedArmor ? `${pickedArmor} (${armorTiers[armorRoll - 1]}), ` : ""} ${d6EquipmentRoll ? `${d6EquipmentRoll}, ` : ""
-  // }${d12EquipmentRollOne}, ${d12EquipmentRollTwo}, ${additionalStartingScroll ? `${additionalStartingScroll}. ` : ""
-  // }${silver} szt. srebra.`;
 
   return createdCharacter;
 }
