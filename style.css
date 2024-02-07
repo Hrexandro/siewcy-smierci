@@ -1,0 +1,68 @@
+/* body {
+    background: black;
+}
+
+p {
+    color: white;
+}
+
+#top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+select {
+    background: black;
+    color: white;
+    border: 1px solid white;
+
+}
+
+input {
+    background: black;
+    color: white;
+    border: 1px solid white;
+
+}
+
+#generate-button {
+    background: black;
+    color: white;
+    border: 1px solid white;
+} */
+
+/* below used before introducing bootstrap */
+
+/* .bar {
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: stretch;
+}
+
+@media only screen and (max-width: 1024px) {
+    p {
+        font-size: xx-large;
+    }
+    .input {
+        flex-grow: 1;
+        font-size: xx-large;
+    }
+  } */
+
+  
+  .invisible {
+    visibility: hidden;
+  }
+
+
+  footer {
+    font-size: small;
+  }
+
+  a{
+ 
+    color:inherit;
+  }
